@@ -1,0 +1,21 @@
+{
+  "name": "ebabel-random",
+  "version": "1.0.0",
+  "description": "Returns a random integer number from 1 to 100 or from min to max (min is non-inclusive).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebabel-eu/ebabel-random.git"
+  },
+  "keywords": [
+    "games",
+    "module",
+    "javascript"
+  ],
+  "author": "Thomas Amar <hello@ebabel.eu> (https://ebabel.eu/)",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ebabel-eu/ebabel-random/issues"
+  },
+  "homepage": "https://github.com/ebabel-eu/ebabel-random#readme"
+}
