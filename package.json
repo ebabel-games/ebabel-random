@@ -1,8 +1,12 @@
 {
   "name": "ebabel-random",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Returns a random integer number from 1 to 100 or from min to max (min is non-inclusive).",
   "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "jsdoc": "node ./node_modules/.bin/jsdoc -d docs ./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ebabel-eu/ebabel-random.git"
@@ -13,9 +17,16 @@
     "javascript"
   ],
   "author": "Thomas Amar <hello@ebabel.eu> (https://ebabel.eu/)",
+  "contributors": [
+    "Dave Pitts <dgapitts@gmail.com>"
+  ],
   "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/ebabel-eu/ebabel-random/issues"
   },
-  "homepage": "https://github.com/ebabel-eu/ebabel-random#readme"
+  "homepage": "https://github.com/ebabel-eu/ebabel-random#readme",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "jsdoc": "^3.5.5"
+  }
 }

@@ -59,3 +59,9 @@ typings/
 
 # next.js build output
 .next
+
+# MacOSX folder level custom attributes  
+.DS_Store
+
+# output from running jsdoc
+docs
