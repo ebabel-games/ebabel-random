@@ -9,7 +9,7 @@
   "scripts": {
     "test": "npm run eslint && jest --coverage",
     "jsdoc": "node ./node_modules/.bin/jsdoc -d docs ./index.js",
-    "eslint": "node ./node_modules/.bin/eslint index.js test/*.js"
+    "eslint": "node ./node_modules/.bin/eslint index.js test/*.js --parser 'babel-eslint'"
   },
   "repository": {
     "type": "git",
