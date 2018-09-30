@@ -7,11 +7,12 @@
  * @param {number} min - the minimum to be returned, should be an integer
  * @returns {number} Integer between min and max (inclusively)
  */
-const random = (max = 100, min = 0) => {
-  if (min == undefined) {min=0}
-  if (isNaN(max)) { throw new Error('max is not a number'); }
-  if (isNaN(min)) { throw new Error('min is not a number'); }
-  if (min > max) { throw new Error('min cannot be greater than max'); }
+const random = (max, min) => {
+  if (max === null || max === undefined) max = 100;
+  if (min === null || min === undefined) min = 0;
+  if (isNaN(max)) throw new Error('max is not a number');
+  if (isNaN(min)) throw new Error('min is not a number');
+  if (min > max) throw new Error('min cannot be greater than max');
 
   return Math.ceil(Math.random() * (max - min)) + min;
 };
