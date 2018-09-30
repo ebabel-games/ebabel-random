@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.2
+- Add linting.
+
 ## 1.1.1
 - Add more unit tests.
 
