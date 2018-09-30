@@ -4,12 +4,12 @@
   "description": "Returns a random integer number from 1 to 100 or from min to max (min is non-inclusive).",
   "main": "index.js",
   "engines" : {
-    "node" : ">=6.2.2"
+    "node" : ">=10"
   },
   "scripts": {
     "test": "npm run eslint && jest --coverage",
     "jsdoc": "node ./node_modules/.bin/jsdoc -d docs ./index.js",
-    "eslint": "node ./node_modules/.bin/eslint index.js test/*.js --parser 'babel-eslint'"
+    "eslint": "node ./node_modules/.bin/eslint index.js test/*.js"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "url": "https://github.com/ebabel-eu/ebabel-random/issues"
   },
   "homepage": "https://github.com/ebabel-eu/ebabel-random#readme",
+  "dependencies": {},
   "devDependencies": {
     "ajv": "^6.5.4",
     "babel-eslint": "^10.0.1",
