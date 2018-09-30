@@ -1,6 +1,5 @@
 # ebabel-random
-[![Build Status](https://travis-ci.org/ebabel-eu/ebabel-random.svg?branch=master)](https://travis-ci.org/ebabel-eu/ebabel-random) 
-[![Coverage Status](https://coveralls.io/repos/github/ebabel-eu/ebabel-random/badge.svg?branch=master)](https://coveralls.io/github/ebabel-eu/ebabel-random?branch=master)
+[![Build Status](https://travis-ci.org/ebabel-eu/ebabel-random.svg?branch=master)](https://travis-ci.org/ebabel-eu/ebabel-random)
 
 Returns a random integer number from 1 to 100 or from min to max (min is non-inclusive).
 
