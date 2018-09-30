@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.3
+- Add Travis build pipeline and badges.
+
 ## 1.1.2
 - Add linting.
 
