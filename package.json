@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebabel-eu/ebabel-random.git"
+    "url": "git+https://github.com/ebabel-games/ebabel-random.git"
   },
   "keywords": [
     "games",
@@ -26,9 +26,9 @@
   ],
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ebabel-eu/ebabel-random/issues"
+    "url": "https://github.com/ebabel-games/ebabel-random/issues"
   },
-  "homepage": "https://github.com/ebabel-eu/ebabel-random#readme",
+  "homepage": "https://github.com/ebabel-games/ebabel-random#readme",
   "dependencies": {},
   "devDependencies": {
     "ajv": "^6.5.4",

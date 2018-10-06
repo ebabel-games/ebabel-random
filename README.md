@@ -1,16 +1,16 @@
 # ebabel-random
-[![Build Status](https://travis-ci.org/ebabel-eu/ebabel-random.svg?branch=master)](https://travis-ci.org/ebabel-eu/ebabel-random)
+[![Build Status](https://travis-ci.org/ebabel-games/ebabel-random.svg?branch=master)](https://travis-ci.org/ebabel-games/ebabel-random)
 
 Returns a random integer number from 1 to 100 or from min to max (min is non-inclusive).
 
 ## Module install and usage in your game
 
-## Install
+### Install
 ```
 npm install --save ebabel-random
 ```
 
-## Usage
+### Usage
 ```
 const random = require('ebabel-random');
 
